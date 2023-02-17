@@ -1,5 +1,6 @@
 #Cree una clase CuentaBancaria que contenga los siguientes atributos: numero_cuenta, propietarios y balance.
 # Los tres atributos se deben inicializar en el constructor con valores recibidos como parámetros
+#8, 9 y 10 ejercicio
 class CuentaBancaria:
 
     def __init__(self, numero_cuenta, cliente, balance=10000, estado=True):
@@ -31,3 +32,4 @@ class CuentaBancaria:
         Cierra la cuenta bancaria.
         """
         self.estado = False
+"return"
